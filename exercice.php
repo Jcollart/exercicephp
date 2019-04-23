@@ -45,15 +45,13 @@ echo gmp_strval($gcd) . "\n";
 
 /* question 7 */
 <?php
-$x = "echo rand(1,100)";
-function variable() {
-    if ($x > 50) {
-       echo ("Je vais faire du bon visuel");
-    }
-    else {
-        echo ("Je suis nul");
-        return variable();
-    }
+$min=0;
+$max=100;
+$x=0;
+for ($x = 0; $x < 50; $x+=1)
+{    echo "je vais faire du bon visuel";
 }
-
+else ($x < 100 ; $x = 50; $x+=1)
+{    echo "je suis un piou piou";
+}
 ?>
