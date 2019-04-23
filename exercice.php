@@ -44,14 +44,35 @@ echo gmp_strval($gcd) . "\n";
 ?>
 
 /* question 7 */
-<?php
+//<?php
 $min=0;
 $max=100;
 $x=0;
 for ($x = 0; $x < 50; $x+=1)
 {    echo "je vais faire du bon visuel";
 }
-else ($x < 100 ; $x = 50; $x+=1)
-{    echo "je suis un piou piou";
+for ($x = 100; $x > 50; $x-=1)
+{    echo "je suis un pioupiou";
 }
 ?>
+
+/* question 8 */
+<?php
+for ($nombre_de_lignes = 1; $nombre_de_lignes <=30; $nombre_de_lignes++)
+{
+    echo  $nombre_de_lignes .'   bonjour pioupiou' . '<br />';
+}
+?>
+
+/* question 9 */
+<?php
+$min=0;
+$max=50;
+$x=0;
+for ($x = 0; $x < 50; $x+=1)
+{    echo $x . "petite perruche" . '<br />';
+}
+?>
+
+/* question 10 */
+<?php
