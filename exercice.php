@@ -145,4 +145,13 @@ for($x = 0; $x < 10; $x++){
 ?>
 
  /* question 14 */ <br />
-<?php
+ <?php
+    $tableau = array('1','2','3','4', '5','6','7','8','9','10');
+    rsort($tableau);
+    print_r($tableau) . '<br />';
+    ?>
+
+/* question 15 */ <br />
+<?php  
+	 
+?>
